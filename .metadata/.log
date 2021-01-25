@@ -458,3 +458,68 @@ java.lang.RuntimeException: Finished restoring information for: C:\Users\ITAUser
 
 !ENTRY org.python.pydev.shared_core 4 4 2021-01-25 13:38:06.315
 !MESSAGE Info: Rebuilding internal caches: C:\Users\ITAUser\Desktop\Python\.metadata\.plugins\org.eclipse.core.resources\.projects\Variables\com.python.pydev.analysis\AdditionalProjectInterpreterInfo.pydevinfo (Expected error to be provided and got no error!)
+!SESSION 2021-01-25 13:47:39.803 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=14.0.2
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-01-25 13:47:50.339
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ITAUser'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.brainwy.liclipsetext.shared_core 4 4 2021-01-25 13:47:52.107
+!MESSAGE C:\Program Files\Brainwy\LiClipse 7.0.1\plugins\com.brainwy.liclipse.editor_7.0.1.202011071150\etc\3hw6mm0atpp76m361vwvzhvcy (The system cannot find the path specified)
+!STACK 0
+java.io.FileNotFoundException: C:\Program Files\Brainwy\LiClipse 7.0.1\plugins\com.brainwy.liclipse.editor_7.0.1.202011071150\etc\3hw6mm0atpp76m361vwvzhvcy (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(Unknown Source)
+	at java.base/java.io.FileOutputStream.<init>(Unknown Source)
+	at java.base/java.io.FileOutputStream.<init>(Unknown Source)
+	at org.brainwy.liclipsetext.shared_core.io.FileUtils.writeBytesToFile(FileUtils.java:140)
+	at org.brainwy.liclipsetext.shared_core.io.FileUtils.writeStrToFile(FileUtils.java:133)
+	at com.brainwy.liclipse.editor.lic.CheckRegistered.run(CheckRegistered.java:146)
+
+!ENTRY org.python.pydev.shared_core 4 4 2021-01-25 13:49:21.323
+!MESSAGE Info: Rebuilding internal caches: C:\Users\ITAUser\Desktop\Python\.metadata\.plugins\org.eclipse.core.resources\.projects\Comments\com.python.pydev.analysis\AdditionalProjectInterpreterInfo.pydevinfo (Expected error to be provided and got no error!)
+
+!ENTRY org.python.pydev.shared_core 4 4 2021-01-25 14:31:41.011
+!MESSAGE Info: Rebuilding internal caches: C:\Users\ITAUser\Desktop\Python\.metadata\.plugins\org.eclipse.core.resources\.projects\Input\com.python.pydev.analysis\AdditionalProjectInterpreterInfo.pydevinfo (Expected error to be provided and got no error!)
+
+!ENTRY org.python.pydev.shared_core 4 4 2021-01-25 14:32:34.537
+!MESSAGE Info: Rebuilding internal caches: C:\Users\ITAUser\Desktop\Python\.metadata\.plugins\org.eclipse.core.resources\.projects\Survey\com.python.pydev.analysis\AdditionalProjectInterpreterInfo.pydevinfo (Expected error to be provided and got no error!)
+
+!ENTRY org.python.pydev.shared_core 4 4 2021-01-25 14:33:03.231
+!MESSAGE Info: Rebuilding internal caches: C:\Users\ITAUser\Desktop\Python\.metadata\.plugins\org.eclipse.core.resources\.projects\Practive\com.python.pydev.analysis\AdditionalProjectInterpreterInfo.pydevinfo (Expected error to be provided and got no error!)
+
+!ENTRY org.python.pydev.shared_core 1 1 2021-01-25 14:38:48.013
+!MESSAGE Not saving ast manager for: P/Practive. No write area available.
+!SESSION 2021-01-25 14:39:01.662 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=14.0.2
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-01-25 14:39:14.623
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ITAUser'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.brainwy.liclipsetext.shared_core 4 4 2021-01-25 14:39:15.680
+!MESSAGE C:\Program Files\Brainwy\LiClipse 7.0.1\plugins\com.brainwy.liclipse.editor_7.0.1.202011071150\etc\3hw6mm0atpp76m361vwvzhvcy (The system cannot find the path specified)
+!STACK 0
+java.io.FileNotFoundException: C:\Program Files\Brainwy\LiClipse 7.0.1\plugins\com.brainwy.liclipse.editor_7.0.1.202011071150\etc\3hw6mm0atpp76m361vwvzhvcy (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(Unknown Source)
+	at java.base/java.io.FileOutputStream.<init>(Unknown Source)
+	at java.base/java.io.FileOutputStream.<init>(Unknown Source)
+	at org.brainwy.liclipsetext.shared_core.io.FileUtils.writeBytesToFile(FileUtils.java:140)
+	at org.brainwy.liclipsetext.shared_core.io.FileUtils.writeStrToFile(FileUtils.java:133)
+	at com.brainwy.liclipse.editor.lic.CheckRegistered.run(CheckRegistered.java:146)
