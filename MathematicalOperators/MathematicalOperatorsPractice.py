@@ -89,3 +89,4 @@ print(h)
 varE=16
 varF=8
 n=Vare
+print(n)

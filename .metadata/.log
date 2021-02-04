@@ -523,3 +523,82 @@ java.io.FileNotFoundException: C:\Program Files\Brainwy\LiClipse 7.0.1\plugins\c
 	at org.brainwy.liclipsetext.shared_core.io.FileUtils.writeBytesToFile(FileUtils.java:140)
 	at org.brainwy.liclipsetext.shared_core.io.FileUtils.writeStrToFile(FileUtils.java:133)
 	at com.brainwy.liclipse.editor.lic.CheckRegistered.run(CheckRegistered.java:146)
+
+!ENTRY org.python.pydev.shared_core 1 1 2021-01-31 17:00:42.241
+!MESSAGE Not saving ast manager for: P/Practice. No write area available.
+!SESSION 2021-01-31 17:00:47.007 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=14.0.2
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-01-31 17:01:04.347
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ITAUser'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.brainwy.liclipsetext.shared_core 4 4 2021-01-31 17:01:05.727
+!MESSAGE C:\Program Files\Brainwy\LiClipse 7.0.1\plugins\com.brainwy.liclipse.editor_7.0.1.202011071150\etc\3hw6mm0atpp76m361vwvzhvcy (The system cannot find the path specified)
+!STACK 0
+java.io.FileNotFoundException: C:\Program Files\Brainwy\LiClipse 7.0.1\plugins\com.brainwy.liclipse.editor_7.0.1.202011071150\etc\3hw6mm0atpp76m361vwvzhvcy (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(Unknown Source)
+	at java.base/java.io.FileOutputStream.<init>(Unknown Source)
+	at java.base/java.io.FileOutputStream.<init>(Unknown Source)
+	at org.brainwy.liclipsetext.shared_core.io.FileUtils.writeBytesToFile(FileUtils.java:140)
+	at org.brainwy.liclipsetext.shared_core.io.FileUtils.writeStrToFile(FileUtils.java:133)
+	at com.brainwy.liclipse.editor.lic.CheckRegistered.run(CheckRegistered.java:146)
+
+!ENTRY org.python.pydev.shared_core 1 1 2021-02-01 13:50:48.341
+!MESSAGE No existing console history at: C:\Users\ITAUser\Desktop\Python\.metadata\.plugins\org.python.pydev.shared_interactive_console\history.py
+!STACK 0
+java.io.FileNotFoundException: C:\Users\ITAUser\Desktop\Python\.metadata\.plugins\org.python.pydev.shared_interactive_console\history.py (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(Unknown Source)
+	at java.base/java.io.FileInputStream.<init>(Unknown Source)
+	at java.base/java.io.FileReader.<init>(Unknown Source)
+	at org.python.pydev.shared_interactive_console.console.ScriptConsoleGlobalHistory.load(ScriptConsoleGlobalHistory.java:96)
+	at org.python.pydev.shared_interactive_console.console.ScriptConsoleGlobalHistory.<init>(ScriptConsoleGlobalHistory.java:45)
+	at org.python.pydev.shared_interactive_console.console.ScriptConsoleGlobalHistory.<clinit>(ScriptConsoleGlobalHistory.java:37)
+	at org.python.pydev.shared_interactive_console.console.ScriptConsoleHistory.<init>(ScriptConsoleHistory.java:56)
+	at org.python.pydev.shared_interactive_console.console.ui.ScriptConsole.<init>(ScriptConsole.java:210)
+	at org.python.pydev.debug.newconsole.PydevConsole.<init>(PydevConsole.java:84)
+	at org.python.pydev.debug.newconsole.PydevDebugConsole.<init>(PydevDebugConsole.java:29)
+	at org.python.pydev.debug.newconsole.PydevConsoleFactory.createDebugConsole(PydevConsoleFactory.java:285)
+	at org.python.pydev.debug.newconsole.PydevConsoleFactory.createDebugConsole(PydevConsoleFactory.java:260)
+	at org.python.pydev.debug.console.PromptOverlay.<init>(PromptOverlay.java:77)
+	at org.python.pydev.debug.console.PromptOverlayConsolePageParticipant.init(PromptOverlayConsolePageParticipant.java:48)
+	at org.eclipse.ui.internal.console.ConsoleView$3.run(ConsoleView.java:343)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.console.ConsoleView.doCreatePage(ConsoleView.java:340)
+	at org.eclipse.ui.part.PageBookView.createPage(PageBookView.java:369)
+	at org.eclipse.ui.part.PageBookView.partActivated(PageBookView.java:696)
+	at org.eclipse.ui.internal.console.ConsoleView.lambda$0(ConsoleView.java:412)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3897)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3527)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at com.brainwy.liclipse.rcp.IDEApplication.start(IDEApplication.java:236)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
