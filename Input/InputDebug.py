@@ -17,7 +17,7 @@ circleArea()
 
 def rectangleArea():
     height = input("What is the height of your rectangle?")
-    width = input()
+    width = input("What is the width of your rectangle?")
     
     area = int(height) * int(width)
     print(area)

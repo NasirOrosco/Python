@@ -28,10 +28,10 @@ print(c)
 d="True"=="False"
 print(d)
 #4) Check if [1,2,3] is equal to [1,2,3] and store the answer in variable e
-e=[123]==[123]
+e=([123]==[123])
 print(e)
 #5) Check if 1 is less than or equal to 2 and store the answer in variable f
-f=1<=2
+f=(1<=2)
 print(f)
 #6) Check if 1 is greater than or equal to 2 and store the answer in variable g
 g=1>=2
